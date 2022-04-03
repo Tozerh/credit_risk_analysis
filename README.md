@@ -1,4 +1,4 @@
-# credit_risk_analysis
+# Credit Risk Analysis
 Module 17 Challenge - Credit Risk Analysis with Supervised Machine Learning
 
 *Project Overview*:
