@@ -61,3 +61,7 @@ Confusion Matrix:
 
 Balanced Accuracy Score: 0.9254274
 
+## Summary
+
+My recommendation to my client here would be to use one of the ensemble classifiers, which should produce a much better result than any of the individual resampling models that we deployed. Given the inherent imbalance to the problem of determining credit risk, employing a sampling method to decrease the variance in prediction is a must, and both Random Forest and AdaBoost allow us to be sure that we remove as much variance as possible from our modeling. Our ensemble classifiers grossly outperform any other models, and I would give AdaBoost the edge due to its slightly higher Balanced Accuracy Score. AdaBoost also has a ~30% lower amount of False negatives, which should help to mitigate any customer complaints and lost business due to incorrectly flagging a low-risk client as high-risk. 
+
